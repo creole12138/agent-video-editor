@@ -1,0 +1,44 @@
+# OS/editor noise
+.DS_Store
+*.swp
+*.tmp
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local raw media and generated edit outputs
+raw/
+raw-*/
+converted/
+converted-*/
+annotated/
+build/
+output/
+
+# Large/private media files
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.m4v
+*.avi
+*.mkv
+*.webm
+*.wav
+*.aif
+*.aiff
+*.mp3
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.HEIC
+*.rtf
+
+# One-off local project scripts or notes
+*_rough_cut.*
+build_*_vlog.py
+*Vlog脚本.md
+*探馆*

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Agent Video Editor"
+  short_description: "Edit short videos with FFmpeg"
+  default_prompt: "Use $agent-video-editor to turn my raw media and script into a polished vertical short video."
+policy:
+  allow_implicit_invocation: true
+
