@@ -28,8 +28,9 @@ Use this skill to turn raw media plus a script, brief, or shot list into a platf
    - List files with `find` or `rg --files`.
    - Run `scripts/inspect_media.py` to capture duration, dimensions, rotation, audio streams, and HEIC notes.
    - Run `scripts/make_keyframes.py` to review keyframes quickly before planning.
-3. **Plan the edit**
-   - Convert the user's script into a shot list.
+3. **Revise and plan the edit**
+   - If the script makes factual claims (gear, products, news) or is drafted by the agent, run the checks in `references/script-revision.md` first: match the creator's real format, tag every claim as verified/creator/unsourced, label changes precisely, and deliver a correction table.
+   - Convert the revised script into a shot list.
    - Use the JSON schema in `references/shot-plan-format.md`.
    - Put hook, context, info, action, conclusion, and CTA in a sensible sequence.
 4. **Preprocess assets**
@@ -133,6 +134,7 @@ python3 agent-video-editor/scripts/make_cover.py output/final.mp4 \
 ## References
 
 - `references/setup.md`: environment, folder structure, install checks.
+- `references/script-revision.md`: creator-style matching, fact-checking, change labeling, per-item structure, correction table.
 - `references/shot-plan-format.md`: JSON shot plan schema and planning heuristics.
 - `references/core-functions.md`: FFmpeg/Pillow helper patterns, subtitles, rotation, mosaic, concat pitfalls.
 - `references/publish-and-qc.md`: BGM mixing, cover guidance, platform copy templates, timestamp revisions, final checklist.
